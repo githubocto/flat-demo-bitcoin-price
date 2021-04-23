@@ -4,9 +4,10 @@ This demo is part of a larger Flat Data project created by Github Research. Read
 
 ## What this demo does
 
-This repository fetches the current Bitcoin price [from this link](http://api.coindesk.com/v2/bpi/currentprice.json) and keeps that data updated every 5 minutes by using the [Flat Data Action]().
+This repository uses a [Flat Data Action]() to fetch the current price of Bitcoin [from this link](http://api.coindesk.com/v2/bpi/currentprice.json) and downloads that data to `btc-price.json` and filtered results to `btc-price-postprocessed.json`. Both files are updated every 5 minutes if there are changes. 
 
-TODO: add diagram
+![](https://raw.githubusercontent.com/githubocto/flat-demo-bitcoin-price/readme-assets/assets/diagram.png)
+
 
 ## Tutorial using the Github GUI
 
