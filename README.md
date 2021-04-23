@@ -4,7 +4,7 @@ This demo is part of a larger Flat Data project created by Github Research. Read
 
 ## What this demo does
 
-This repository uses a [Flat Data Action]() to fetch the current price of Bitcoin [from this link](http://api.coindesk.com/v2/bpi/currentprice.json) and downloads that data to `btc-price.json` and filtered results to `btc-price-postprocessed.json`. Both files are updated every 5 minutes if there are changes. 
+This repository uses a [Flat Data Action]() to fetch the current price of Bitcoin [from this link](http://api.coindesk.com/v2/bpi/currentprice.json) and downloads that data to `btc-price.json` and a filtered version of the data to `btc-price-postprocessed.json`. Both files are updated every 5 minutes if there are changes. 
 
 ![](https://raw.githubusercontent.com/githubocto/flat-demo-bitcoin-price/readme-assets/assets/diagram.png)
 
@@ -199,7 +199,7 @@ How to use Flat Viewer:
 
     ![](https://raw.githubusercontent.com/githubocto/flat-demo-bitcoin-price/readme-assets/assets/10.commit.png)
 
-## Tutorial using the Flat Editor VSCode Extension
+## Tutorial using the Flat Editor VSCode extension
 
 You can also create Flat Data Action files easily with Flat Editor, a VSCode extension. Here's how:
 
