@@ -76,8 +76,8 @@ This is a super simple example of how to use Flat Data using the Github GUI.
 	
 	```yaml
 	with:
-		http_url: http://api.coindesk.com/v2/bpi/currentprice.jso
-		downloaded_filename: btc-price.json
+	    http_url: http://api.coindesk.com/v2/bpi/currentprice.jso
+	    downloaded_filename: btc-price.json
 	```
 
 
