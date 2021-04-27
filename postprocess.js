@@ -22,4 +22,4 @@ await writeJSON(newFilename, filteredCurrencyRates) // create a new JSON file wi
 console.log("Wrote a post process file")
 
 // Optionally delete the original file
-await removeFile(filename) // equivalent to removeFile('btc-price.json')
+await removeFile('./btc-price.json') // equivalent to removeFile('btc-price.json')
