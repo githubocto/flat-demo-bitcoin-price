@@ -45,8 +45,10 @@ This is a super simple example of how to use Flat Data using the Github GUI.
 	      - name: Check out repo
 	        uses: actions/checkout@v2
 	      # This step installs Deno, which is a new Javascript runtime that improves on Node. We'll use it for postprocessing later
-	      - name: Setup Deno
-	        uses: denolib/setup-deno@v2
+	      - name: Setup deno
+		uses: denoland/setup-deno@main
+        	with:
+          	  deno-version: v1.x
 	      # The third step is a Flat Action step. We fetch the data in the http_url and save it as downloaded_filename
 	      - name: Fetch data 
 	        uses: githubocto/flat@v2
@@ -198,11 +200,10 @@ How to use Flat Viewer:
 
     ![](https://raw.githubusercontent.com/githubocto/flat-demo-bitcoin-price/readme-assets/assets/10.commit.png)
 
-## Tutorial using the Flat Editor VSCode extension
+## Using the Flat Editor VSCode extension
 
-You can also create Flat Data Action files easily with Flat Editor, a VSCode extension. Here's how:
+You can also create Flat Data Action files easily with Flat Editor, a VSCode extension: [https://github.com/githubocto/flat-editor](https://github.com/githubocto/flat-editor).
 
-TBD
 
 ## License
 
