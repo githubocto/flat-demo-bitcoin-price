@@ -47,7 +47,7 @@ This is a super simple example of how to use Flat Data using the Github GUI.
 	      # This step installs Deno, which is a new Javascript runtime that improves on Node. We'll use it for postprocessing later
 	      - name: Setup deno
 		uses: denoland/setup-deno@main
-        	with:
+		with:
           	  deno-version: v1.x
 	      # The third step is a Flat Action step. We fetch the data in the http_url and save it as downloaded_filename
 	      - name: Fetch data 
