@@ -67,7 +67,7 @@ This is a super simple example of how to use Flat Data using the Github GUI.
 	      - .github/workflows/flat.yml
 	```
 	
-	b. This section determines how often the Action will run. It uses a utility called [cron](https://docs.github.com/en/actions/reference/workflow-syntax-for-github-actions#onschedule) to schedule time-based jobs. Cron jobs have a very particular syntax, and in this example we’re telling the workflow to run every 15 minutes (Actions schedules run at most every 5 minutes). You can use a [handy page like this one](https://crontab.guru/) to figure out any schedule (every hour, once a month, every Saturday, etc).
+	b. This section determines how often the Action will run. It uses a utility called [cron](https://docs.github.com/en/actions/reference/workflow-syntax-for-github-actions#onschedule) to schedule time-based jobs. Cron jobs have a very particular syntax, and in this example we’re telling the workflow to run every 5 minutes (Actions schedules run at most every 5 minutes). You can use a [handy page like this one](https://crontab.guru/) to figure out any schedule (every hour, once a month, every Saturday, etc).
 	
 	```yaml 
 	schedule:
@@ -102,7 +102,7 @@ This is a super simple example of how to use Flat Data using the Github GUI.
 
 3. **Check the commit history:**If you check the commit history for the repository, you’ll see that Flat Action logs when a particular file changed and was committed to your repository.
 
-    At this point you’ve used Flat Data to get data on a schedule (in this case every 15 minutes) into your repo. Congrats! But Flat Data can do a bit more. Read on to see how you can add an extra step to process your data in more advanced ways. 
+    At this point you’ve used Flat Data to get data on a schedule (in this case every 5 minutes) into your repo. Congrats! But Flat Data can do a bit more. Read on to see how you can add an extra step to process your data in more advanced ways. 
 
     ![](https://raw.githubusercontent.com/githubocto/flat-demo-bitcoin-price/readme-assets/assets/6.commit.png)
 
