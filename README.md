@@ -100,7 +100,7 @@ This is a super simple example of how to use Flat Data using the Github GUI.
 
     ![](https://raw.githubusercontent.com/githubocto/flat-demo-bitcoin-price/readme-assets/assets/5.jsonfile.png)
 
-3. **Check the commit history:**If you check the commit history for the repository, you’ll see that Flat Action logs when a particular file changed and was committed to your repository.
+3. **Check the commit history:** If you check the commit history for the repository, you’ll see that Flat Action logs when a particular file changed and was committed to your repository.
 
     At this point you’ve used Flat Data to get data on a schedule (in this case every 15 minutes) into your repo. Congrats! But Flat Data can do a bit more. Read on to see how you can add an extra step to process your data in more advanced ways. 
 
