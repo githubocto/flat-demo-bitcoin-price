@@ -8,6 +8,10 @@ This repository uses a [Flat Data Action](https://octo.github.com/blog/flat-data
 
 <img src="https://raw.githubusercontent.com/githubocto/flat-demo-bitcoin-price/readme-assets/assets/diagram2.png" alt="diagram" width="400"/>
 
+## Using Python
+
+While this example uses a javascript Deno file to run the postprocessing, you can also use Python as specified in this example: [https://github.com/pierrotsmnrd/flat_data_py_example](https://github.com/pierrotsmnrd/flat_data_py_example). Thank you [@pierrotsmnrd](https://github.com/pierrotsmnrd)!
+
 ## Tutorial using the Github GUI
 
 This is a super simple example of how to use Flat Data using the Github GUI. 
