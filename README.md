@@ -10,7 +10,7 @@ This repository uses a [Flat Data Action](https://octo.github.com/blog/flat-data
 
 ## Using Python
 
-While this example uses a javascript Deno file to run the postprocessing, you can also use Python as specified in this example: [https://github.com/pierrotsmnrd/flat_data_py_example](https://github.com/pierrotsmnrd/flat_data_py_example). Thank you [@pierrotsmnrd](https://github.com/pierrotsmnrd)!
+While this example uses a javascript Deno file to run the postprocessing tasks, you can also use Python as specified in this example: [https://github.com/pierrotsmnrd/flat_data_py_example](https://github.com/pierrotsmnrd/flat_data_py_example). Thank you [@pierrotsmnrd](https://github.com/pierrotsmnrd)!
 
 ## Tutorial using the Github GUI
 
