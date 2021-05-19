@@ -24,6 +24,6 @@ jobs:
       - name: Fetch data 
         uses: githubocto/flat@v2
         with:
-          http_url: http://api.coindesk.com/v2/bpi/currentprice.json # The data to fetch every 5 minutes
+          http_url: https://api.coindesk.com/v2/bpi/currentprice.json # The data to fetch every 5 minutes
           downloaded_filename: btc-price.json # The http_url gets saved and renamed in our repository as btc-price.json
           postprocess: postprocess.js # A postprocessing javascript or typescript file written in Deno
