@@ -4,7 +4,7 @@ This demo is part of a larger Flat Data project created by [GitHub OCTO](https:/
 
 ## What this demo does
 
-This repository uses a [Flat Data Action](https://octo.github.com/blog/flat-data) to fetch the current price of Bitcoin [from this link](http://api.coindesk.com/v2/bpi/currentprice.json) and downloads that data to `btc-price.json` and a filtered version of the data to `btc-price-postprocessed.json`. Both files are updated every 5 minutes if there are changes. 
+This repository uses a [Flat Data Action](https://octo.github.com/blog/flat-data) to fetch the current price of Bitcoin [from this link](https://api.coindesk.com/v2/bpi/currentprice.json) and downloads that data to `btc-price.json` and a filtered version of the data to `btc-price-postprocessed.json`. Both files are updated every 5 minutes if there are changes. 
 
 <img src="https://raw.githubusercontent.com/githubocto/flat-demo-bitcoin-price/readme-assets/assets/diagram2.png" alt="diagram" width="400"/>
 
@@ -53,7 +53,7 @@ This is a super simple example of how to use Flat Data using the Github GUI.
 	      - name: Fetch data 
 	        uses: githubocto/flat@v2
 	        with:
-	          http_url: http://api.coindesk.com/v2/bpi/currentprice.json # The data to fetch every 5 minutes
+	          http_url: https://api.coindesk.com/v2/bpi/currentprice.json # The data to fetch every 5 minutes
 	          downloaded_filename: btc-price.json # The http_url gets saved and renamed in our repository as btc-price.json
 	```
 	
@@ -78,7 +78,7 @@ This is a super simple example of how to use Flat Data using the Github GUI.
 	
 	```yaml
 	with:
-	    http_url: http://api.coindesk.com/v2/bpi/currentprice.jso
+	    http_url: https://api.coindesk.com/v2/bpi/currentprice.jso
 	    downloaded_filename: btc-price.json
 	```
 
@@ -149,7 +149,7 @@ But what if you want to process or change the data in some way before it gets ad
 	- name: Fetch data 
 	        uses: githubocto/flat@v2
 	        with:
-	          http_url: http://api.coindesk.com/v2/bpi/currentprice.json # The data to fetch every 5 minutes
+	          http_url: https://api.coindesk.com/v2/bpi/currentprice.json # The data to fetch every 5 minutes
 	          downloaded_filename: btc-price.json # The http_url gets saved and renamed in our repository as btc-price.json
 	          postprocess: postprocess.js # A postprocessing javascript or typescript file
 	```
