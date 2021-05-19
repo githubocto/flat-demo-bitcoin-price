@@ -190,7 +190,7 @@ How to use Flat Viewer:
 
 1. **Make sure your repository is public:** Although you can use the Flat Action with any repository — whether private or public — the Flat Viewer only works with public repositories for now.
 
-2. **Go to the Flat Viewer URL for your repository:** all you need to do to go to the Flat Viewer is change the domain of your repository from “github.com” to “flatgithub.com”. In this example instead of using the URL: [https://github.com/irealva/flat-demo-bitcoin-price](https://github.com/irealva/flat-demo-bitcoin-price) we want to navigate to [https://flatgithub.com/irealva/flat-demo-bitcoin-price](https://flatgithub.com/irealva/flat-demo-bitcoin-price)
+2. **Go to the Flat Viewer URL for your repository:** all you need to do to go to the Flat Viewer is change the domain of your repository from “github.com” to “flatgithub.com”. In this example instead of using the URL: [https://github.com/githubocto/flat-demo-bitcoin-price](https://github.com/githubocto/flat-demo-bitcoin-price) we want to navigate to [https://flatgithub.com/githubocto/flat-demo-bitcoin-price](https://flatgithub.com/githubocto/flat-demo-bitcoin-price)
 
 3. **Select ‘btc-price-postprocessed.json’ from the dropdown:** you should be able to see the json file data in a neat tabular format. This is a super simple file, but we provide more useful filtering and formatting features for more complex files. 
 
