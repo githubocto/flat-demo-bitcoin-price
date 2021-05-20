@@ -87,7 +87,7 @@ This is a super simple example of how to use Flat Data using the Github GUI.
 	```
 
 
-4. **Commit the flat.yaml file:** Once you commit the flat.yaml file to your folder, you will have officially completed writing your first Github Action! GitHub Actions is a service that let’s us automate all kinds of workflows in a repository by writing instructions and scripts in a YAML file. In this example our action uses another action itself, the Flat Action.
+4. **Commit the flat.yaml file:** Once you commit the flat.yaml file to your folder, you will have officially completed writing your first Github Action! GitHub Actions is a service that lets us automate all kinds of workflows in a repository by writing instructions and scripts in a YAML file. In this example our action uses another action itself, the Flat Action.
 
 
 #### Running the Flat Action
