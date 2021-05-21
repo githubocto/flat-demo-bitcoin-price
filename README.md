@@ -52,7 +52,7 @@ This is a super simple example of how to use Flat Data using the Github GUI.
 	      - name: Setup deno
 	        uses: denoland/setup-deno@main
 	        with:
-          	  deno-version: v1.x
+              deno-version: v1.x
 	      # The third step is a Flat Action step. We fetch the data in the http_url and save it as downloaded_filename
 	      - name: Fetch data 
 	        uses: githubocto/flat@v2
