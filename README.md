@@ -4,7 +4,7 @@ This demo is part of a larger Flat Data project created by [GitHub OCTO](https:/
 
 ## What this demo does
 
-This repository uses a [Flat Data Action](https://octo.github.com/blog/flat-data) to fetch the current price of Bitcoin [from this link](https://api.coindesk.com/v2/bpi/currentprice.json) and downloads that data to `btc-price.json` and a filtered version of the data to `btc-price-postprocessed.json`. Both files are updated every 5 minutes if there are changes. 
+This repository uses a [Flat Data Action](https://github.com/githubocto/flat) to fetch the current price of Bitcoin [from this link](https://api.coindesk.com/v2/bpi/currentprice.json) and downloads that data to `btc-price.json` and a filtered version of the data to `btc-price-postprocessed.json`. Both files are updated every 5 minutes if there are changes. 
 
 <img src="https://raw.githubusercontent.com/githubocto/flat-demo-bitcoin-price/readme-assets/assets/diagram2.png" alt="diagram" width="400"/>
 
