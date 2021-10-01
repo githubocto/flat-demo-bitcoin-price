@@ -179,7 +179,7 @@ But what if you want to process or change the data in some way before it gets ad
 	
 💡What is Deno?💡
 
-You might be wondering what Deno is and why the postprocess script was written in this language. Deno was created by the same engineers who wrote Node.js, but it was designed to improve on the capabilities of Node.js. Think of it as the successor to Node.js. Deno is more secure by default and does not need centralized package manager, to name just a few of it’s very handy features. 
+You might be wondering what Deno is and why the postprocess script was written in this language. Deno was created by the same engineers who wrote Node.js, but it was designed to improve on the capabilities of Node.js. Think of it as the successor to Node.js. Deno is more secure by default and does not need a centralized package manager, to name just a few of it’s very handy features. 
 
 If you know how to program with Node, Deno programming will be a breeze and extremely familiar. To get you started quickly, we’ve written a handful of examples and helper functions to get you started. Go to this repo to learn more. 
 
