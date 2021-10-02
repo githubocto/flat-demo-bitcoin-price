@@ -71,7 +71,7 @@ This is a super simple example of how to use Flat Data using the Github GUI.
 	      - .github/workflows/flat.yml
 	```
 	
-	b. This section determines how often the Action will run. It uses a utility called [cron](https://docs.github.com/en/actions/reference/workflow-syntax-for-github-actions#onschedule) to schedule time-based jobs. Cron jobs have a very particular syntax, and in this example we’re telling the workflow to run every 5 minutes (Actions schedules run at most every 5 minutes). You can use a [handy page like this one](https://crontab.guru/) to figure out any schedule (every hour, once a month, every Saturday, etc).
+	b. This section determines how often the Action will run. It uses a utility called [cron](https://docs.github.com/en/actions/reference/workflow-syntax-for-github-actions#onschedule) to schedule time-based jobs. Cron jobs have a very particular syntax, and in this example, we’re telling the workflow to run every 5 minutes (Actions schedules run at most every 5 minutes). You can use a [handy page like this one](https://crontab.guru/) to figure out any schedule (every hour, once a month, every Saturday, etc).
 	
 	```yaml 
 	schedule:
@@ -106,7 +106,7 @@ This is a super simple example of how to use Flat Data using the Github GUI.
 
 3. **Check the commit history:** If you check the commit history for the repository, you’ll see that Flat Action logs when a particular file changed and was committed to your repository.
 
-    At this point you’ve used Flat Data to get data on a schedule (in this case every 5 minutes) into your repo. Congrats! But Flat Data can do a bit more. Read on to see how you can add an extra step to process your data in more advanced ways. 
+    At this point, you’ve used Flat Data to get data on a schedule (in this case every 5 minutes) into your repo. Congrats! But Flat Data can do a bit more. Read on to see how you can add an extra step to process your data in more advanced ways. 
 
     ![](https://raw.githubusercontent.com/githubocto/flat-demo-bitcoin-price/readme-assets/assets/6.commit.png)
 
@@ -194,7 +194,7 @@ How to use Flat Viewer:
 
 1. **Make sure your repository is public:** Although you can use the Flat Action with any repository — whether private or public — the Flat Viewer only works with public repositories for now.
 
-2. **Go to the Flat Viewer URL for your repository:** all you need to do to go to the Flat Viewer is change the domain of your repository from “github.com” to “flatgithub.com”. In this example instead of using the URL: [https://github.com/githubocto/flat-demo-bitcoin-price](https://github.com/githubocto/flat-demo-bitcoin-price) we want to navigate to [https://flatgithub.com/githubocto/flat-demo-bitcoin-price](https://flatgithub.com/githubocto/flat-demo-bitcoin-price)
+2. **Go to the Flat Viewer URL for your repository:** all you need to do to go to the Flat Viewer is change the domain of your repository from “github.com” to “flatgithub.com”. In this example, instead of using the URL: [https://github.com/githubocto/flat-demo-bitcoin-price](https://github.com/githubocto/flat-demo-bitcoin-price) we want to navigate to [https://flatgithub.com/githubocto/flat-demo-bitcoin-price](https://flatgithub.com/githubocto/flat-demo-bitcoin-price)
 
 3. **Select ‘btc-price-postprocessed.json’ from the dropdown:** you should be able to see the json file data in a neat tabular format. This is a super simple file, but we provide more useful filtering and formatting features for more complex files. 
 
