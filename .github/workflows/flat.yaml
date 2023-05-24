@@ -14,7 +14,7 @@ jobs:
     steps: # This workflow has 3 steps
       # The first step is to check out the repository so it can read the files inside of it and do other operations
       - name: Check out repo
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3
       # This step installs Deno, which is a new Javascript runtime that improves on Node. We'll use it for postprocessing later
       - name: Setup deno
         uses: denoland/setup-deno@main
