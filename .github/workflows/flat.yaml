@@ -22,7 +22,7 @@ jobs:
           deno-version: v1.x
       # The third step is a Flat Action step. We fetch the data in the http_url and save it as downloaded_filename
       - name: Fetch data 
-        uses: githubocto/flat@v3
+        uses: githubocto/flat@mr/node16
         with:
           http_url: https://api.coindesk.com/v2/bpi/currentprice.json # The data to fetch every 5 minutes
           downloaded_filename: btc-price.json # The http_url gets saved and renamed in our repository as btc-price.json
