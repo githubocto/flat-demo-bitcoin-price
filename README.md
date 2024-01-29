@@ -24,11 +24,16 @@ This is a super simple example of how to use Flat Data using the Github GUI.
 
     ![](https://raw.githubusercontent.com/githubocto/flat-demo-bitcoin-price/readme-assets/assets/1.newrepo.png)
 
-2. **Create a flat.yaml file inside of a .github/workflows/ folder**: You can use the GitHub GUI to create a new “flat.yaml” file inside of a very specific folder: .github/workflows/. You can create the folders by just typing out the path as you create the flat.yaml file.
+2. **Update Workflow Settings**
+
+    ![image](https://github.com/bwagner/flat-demo-bitcoin-price-fix/assets/447049/00234974-ab36-4209-a52b-eb384ad4a9df)
+
+
+3. **Create a flat.yaml file inside of a .github/workflows/ folder**: You can use the GitHub GUI to create a new “flat.yaml” file inside of a very specific folder: .github/workflows/. You can create the folders by just typing out the path as you create the flat.yaml file.
 
     ![](https://raw.githubusercontent.com/githubocto/flat-demo-bitcoin-price/readme-assets/assets/2.yaml.png)
 
-3. **Add the following code to the flat.yaml file:**
+4. **Add the following code to the flat.yaml file:**
 
 	```yaml
 	name: Flat
