@@ -127,7 +127,7 @@ But what if you want to process or change the data in some way before it gets ad
 	
 	// Helper library written for useful postprocessing tasks with Flat Data
 	// Has helper functions for manipulating csv, json, excel, zip, and image files
-	import { readJSON, writeJSON } from 'https://deno.land/x/flat@0.0.11/mod.ts' 
+	import { readJSON, writeJSON } from 'https://deno.land/x/flat@0.0.15/mod.ts' 
 	
 	// Step 1: Read the downloaded_filename JSON
 	const filename = Deno.args[0] // Same name as downloaded_filename `const filename = 'btc-price.json';`
@@ -166,7 +166,7 @@ But what if you want to process or change the data in some way before it gets ad
 5. **Remove the original downloaded data (optional):** If you optionally only wanted to keep the postprocessed-btc-price.json file and not the original data, you can add the following lines to the postprocess script to simply delete it before it gets committed to the repository.
 
 	```javascript
-	import { readJSON, writeJSON, removeFile } from 'https://deno.land/x/flat@0.0.11/mod.ts'
+	import { readJSON, writeJSON, removeFile } from 'https://deno.land/x/flat@0.0.15/mod.ts'
 	
 	const filename = Deno.args[0]
 	
