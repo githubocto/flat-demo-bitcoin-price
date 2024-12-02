@@ -24,11 +24,16 @@ This is a super simple example of how to use Flat Data using the Github GUI.
 
     ![](https://raw.githubusercontent.com/githubocto/flat-demo-bitcoin-price/readme-assets/assets/1.newrepo.png)
 
-2. **Create a flat.yaml file inside of a .github/workflows/ folder**: You can use the GitHub GUI to create a new “flat.yaml” file inside of a very specific folder: .github/workflows/. You can create the folders by just typing out the path as you create the flat.yaml file.
+2. **Update Workflow Settings**
+
+    ![image](https://github.com/bwagner/flat-demo-bitcoin-price-fix/assets/447049/00234974-ab36-4209-a52b-eb384ad4a9df)
+
+
+3. **Create a flat.yaml file inside of a .github/workflows/ folder**: You can use the GitHub GUI to create a new “flat.yaml” file inside of a very specific folder: .github/workflows/. You can create the folders by just typing out the path as you create the flat.yaml file.
 
     ![](https://raw.githubusercontent.com/githubocto/flat-demo-bitcoin-price/readme-assets/assets/2.yaml.png)
 
-3. **Add the following code to the flat.yaml file:**
+4. **Add the following code to the flat.yaml file:**
 
 	```yaml
 	name: Flat
@@ -127,7 +132,7 @@ But what if you want to process or change the data in some way before it gets ad
 	
 	// Helper library written for useful postprocessing tasks with Flat Data
 	// Has helper functions for manipulating csv, json, excel, zip, and image files
-	import { readJSON, writeJSON } from 'https://deno.land/x/flat@0.0.11/mod.ts' 
+	import { readJSON, writeJSON } from 'https://deno.land/x/flat@0.0.15/mod.ts' 
 	
 	// Step 1: Read the downloaded_filename JSON
 	const filename = Deno.args[0] // Same name as downloaded_filename `const filename = 'btc-price.json';`
@@ -166,7 +171,7 @@ But what if you want to process or change the data in some way before it gets ad
 5. **Remove the original downloaded data (optional):** If you optionally only wanted to keep the postprocessed-btc-price.json file and not the original data, you can add the following lines to the postprocess script to simply delete it before it gets committed to the repository.
 
 	```javascript
-	import { readJSON, writeJSON, removeFile } from 'https://deno.land/x/flat@0.0.11/mod.ts'
+	import { readJSON, writeJSON, removeFile } from 'https://deno.land/x/flat@0.0.15/mod.ts'
 	
 	const filename = Deno.args[0]
 	
